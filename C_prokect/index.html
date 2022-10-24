@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overview">
+        <header class="header">
+            <img class="logo" src="images\Asset 2@3x.png" alt="logo" sizes="" srcset="">
+        </header>
+        <nav id="navbar">
+            <div class="nav_logo">
+                <img src="images\Asset 1@3x.png" width="100px" alt="" srcset="">
+            </div>
+            <div class="navlinks">
+                <a href="#home">Home</a>
+                <a href="#products">Browse Products</a>
+                <a href="#contacts">Contact Us</a>
+                <a href="#nearstore">About Us</a>
+            </div>           
+        </nav>
+        <main>
+            <div class="top" id="home">
+                <h2 class="desc">Welcome to our online website. Do check out our premium wedding collection.
+                    <h3>Introducing princess cut wedding ring series<br>-Jacob King</br></h3>
+                </h2>
+            </div>
+            <div class="cardbox" id="products">
+                <div>
+                    <img src="images\ring.jpg" width="300px" height="300px" alt="">
+                    <p>Princess Cut ciamond ring</p>
+                </div>
+                <div>
+                    <img src="images\necklace_gold.jpg" width="=300px" height="300px" alt="">
+                    <p>Gold Necklace for traditional wedding</p>
+                </div>
+                <div>
+                    <img src="images\necklace_diamond.jpg" width="300px" height="300px" alt="">
+                    <p>Diamond Necklace for classy wedding</p>
+                </div>
+                <div>
+                    <img src="images\queen_set.jpg" width="300px" height="300px" alt="">
+                    <p>Queen's Attaire for Grand wedding</p>
+                </div>
+                <div>
+                    <img src="images\queen_set.jpg" width="300px" height="300px" alt="">
+                    <p>Queen's Attaire for Grand wedding</p>
+                </div>
+            </div>
+            <h3>Brand Story</h3>
+            <div id="nearstore">
+                
+                <div>
+                    <h4 style="color: rgb(167, 0, 0);"><strong>Initial Foray</strong></h4>
+                    <p>The journey of Mandata & Gala started with the launch of 18k gold watches studded with precious stones in 1994. But, it soon grew into a 22K jeweller who presented a stunning range of gold and diamond jewellery. The term Tanishq was coined by Mr. Xerxes Desai by marrying the words ‘Tan’ meaning body and ‘Nishk’ meaning a gold ornament</p>
+                </div>
+                <div>
+                    <h4  style="color: rgb(167, 0, 0);">Timeless Appeal</h4>
+                    <p>At Mandata & Gala, jewellery is not a product but a manifestation of artistry and our exquisite range of jewel pieces strike the perfect balance between traditional charm and contemporary appeal. With designs that capture the beauty and celebration of special occasions in the life of the Woman, M&G aims to be an integral part of her journey.</p>
+                </div>
+            </div>
+            <div class="container">
+                <h4>Contact Us</h4>
+                <div class="contact" id="contacts">
+                    <div>
+                        <h5>Our Locations</h5>
+                        <ul style="list-style: none;">
+                            <li>America</li>
+                            <li>Europe</li>
+                            <li>Russia</li>
+                            <li>Asia Pacific</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Reach Out to Us by</h5>
+                        <ul style="list-style: none;">
+                            <li>Phone: +11 567-487-887</li>
+                            <li>www.facebook.com</li>
+                            <li>www.linkedin.com</li>
+                            <li>www.twitter.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <div>
+                <img src="images\Asset 3@3x.png" width="60px" alt="">
+            </div>
+            <div class="certify">
+                <p style="color: white; align-content: center;">Mandata & Gala. ©All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }    
+    </script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.header {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(images/bodybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbar a {
+   float: left;
+   display: block;
+   color: #6b0a0a;
+   text-align: center;
+   transition: transform 0.2s;
+   text-decoration: none;
+ }
+
+#navbar a:hover {
+   background-color:blue;
+   color: azure;   
+   border-radius: 11px;
+   transform: scale(1.2);
+ }
+
+header > img {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav_logo{
+    padding: 10px;
+}
+nav {
+    display: flex;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: rgb(168, 153, 153)
+}
+ .navlinks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ a {
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+ }
+
+ .end {
+    flex-direction: flex-end;
+ } 
+
+ .top{
+    border: 1px solid black;
+    width: 100%;
+    height: 40%;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    background-image: url(images/main_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+
+ .top > h2{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size:xx-large;
+ }
+
+ .top > h3 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    font-size:x-large;
+    color: rgb(165, 4, 4)
+ }
+
+ .cardbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+ }
+  
+ .cardbox > div {
+    border: 1px solid rgb(238, 230, 230);
+    margin: 20px;
+    margin-top:  10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+ }
+ 
+ .cardbox > div > img {
+    margin: 10px;
+    border-radius: 11px;
+    transition: transform 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.cardbox > div > img:hover {
+    transform: scale(1.2);
+    border-radius: 11px;
+    
+}
+
+.cardbox > div > p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+.sticky + .overview {
+   padding-top: 60px;
+ }
+
+#nearstore {
+   padding: 16px;
+   display: flex;
+   
+}
+
+#nearstore > div {
+   flex-grow: 1;
+   padding: 10px;
+   border-left: 4px solid red;
+}
+h3 {
+   color: #6b0a0a;
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   padding-left: 16px;
+   padding-right: 16px;
+   margin-top: 10%;
+   font-size: 30px;
+   text-decoration: underline;
+}
+
+footer {
+   background-color: rgb(43, 43, 43);
+   display: flex;
+   text-align: center;
+}
+
+footer img {
+   margin: 10px;
+}
+.certify{
+   margin-left: auto;
+   margin-right: auto;
+}
+#nearstore > div > p {
+   font-family: 'Satisfy', cursive;
+}
+   
+.container {
+   margin: 10px;
+   padding: 5px;
+   border: 5px solid red;
+   border-style: ridge;
+   background-image: url(images/body_2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: whitesmoke;
+}
+
+
+.contact {
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   padding-left: 20%;
+   margin-left: 20%;
+}
